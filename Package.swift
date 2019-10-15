@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .target(
             name: "FBSDKSwift",
-            dependencies: ["FBSDKCoreKit", "FBSDKShareKit", "FBSDKLoginKit"],
+            dependencies: ["FBSDKShareKit", "FBSDKLoginKit"],
             path: "Sources",
             exclude: ["Frameworks"]
         )
