@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "FBSDKSwift", targets: ["FBSDKSwift"])
     ],
     dependencies: [
-        .package(url: "https://github.com/JeronimoPaganini/facebook-swift-sdk.git", .upToNextMajor(from: "5.8.0")),
+        .package(url: "https://github.com/facebook/facebook-swift-sdk.git", .upToNextMajor(from: "5.8.0")),
     ],
     targets: [
         .target(
